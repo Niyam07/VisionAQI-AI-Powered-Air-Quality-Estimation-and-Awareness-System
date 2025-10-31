@@ -1,0 +1,63 @@
+# 🌍 Project Problem Statement  
+**Title:** Sustainable Air Quality Monitoring using CNN and AQI-to-Cigarette Conversion
+
+---
+
+## 🔎 Problem Definition
+Air pollution has become one of the most critical environmental and health challenges across the world.  
+In countries like **India and Nepal**, rapid urbanization and industrial growth have led to severe air quality deterioration.
+
+Traditional air quality monitoring systems rely on expensive sensors and limited geographical coverage.  
+Our goal is to develop a **computer vision-based system** that can estimate the **Air Quality Index (AQI)** directly from **images of the environment**, enabling scalable, low-cost air pollution awareness.
+
+---
+
+## 🎯 Project Objective
+1. Build a **CNN-based Image Classifier** trained on the *Air Pollution Image Dataset from India and Nepal* to categorize scenes into **six AQI levels**:
+   - Good  
+   - Moderate  
+   - Unhealthy for Sensitive Groups  
+   - Unhealthy  
+   - Very Unhealthy  
+   - Hazardous  
+
+2. Integrate the model into an **interactive web application** that:
+   - Predicts the AQI category from an image.  
+   - Converts the estimated AQI/PM2.5 into an **equivalent number of cigarettes** (for awareness).  
+   - Displays dynamic **visualizations** and **health recommendations**.
+
+---
+
+## 💡 Problem Significance
+- Raises **public awareness** about pollution severity through visual indicators.  
+- Promotes **sustainability and smart city development** by providing low-cost air quality estimation.  
+- Supports **SDG Goal 11: Sustainable Cities and Communities** and **Goal 13: Climate Action**.  
+- Enables **real-time environmental monitoring** using deep learning and open data.
+
+---
+
+## 🧩 Research Background
+This work is inspired by the publication:
+> Utomo, S.; Rouniyar, A.; Hsu, H.-C.; & Hsiung, P.-A. (2023). *Federated Adversarial Training Strategies for Achieving Privacy and Security in Sustainable Smart City Applications.* Future Internet, 15(11), 371.
+
+Dataset used:
+> Adarsh Rouniyar et al. (2023). *Air Pollution Image Dataset from India and Nepal*. [Kaggle Dataset Link](https://www.kaggle.com/datasets/adarshrouniyar/air-pollution-image-dataset-from-india-and-nepal)
+
+---
+
+## 🧭 Scope of Work (Internship Deliverables)
+| Week | Task | Output |
+|------|------|---------|
+| 1 | Literature review, define problem & objectives | Problem Statement + README |
+| 2 | Data preprocessing, baseline CNN model | Training notebook + accuracy report |
+| 3 | Flask API + Streamlit UI integration | Working prototype |
+| 4 | Final testing, documentation & presentation | Complete web app demo |
+
+---
+
+## 🏁 Expected Outcome
+A working **AI-powered AQI prediction system** with:
+- Trained CNN model capable of classifying air quality levels.  
+- Flask + Streamlit-based web dashboard.  
+- Cigarette-equivalent visualization for awareness.  
+- Deployed demo and documented results.
